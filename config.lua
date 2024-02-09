@@ -6,3 +6,8 @@
 reload('user.formatters')
 reload('user.keymaps')
 reload('user.plugins')
+reload('user.options')
+
+reload('plugin.presence')
+reload('plugin.rust-tools')
+reload('plugin.copilot')

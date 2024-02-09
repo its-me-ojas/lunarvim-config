@@ -29,17 +29,18 @@ lvim.plugins = {
 
 
     -- Themes
+    'Mofiqul/vscode.nvim',
     "morhetz/gruvbox",
-    "lunarvim/horizon.nvim",
-    "tomasr/molokai",
-    "ayu-theme/ayu-vim",
-    "yonlu/omni.vim",
+    -- "lunarvim/horizon.nvim",
+    -- "tomasr/molokai",
+    -- "ayu-theme/ayu-vim",
+    -- "yonlu/omni.vim",
     "ray-x/aurora",
     "tiagovla/tokyodark.nvim",
-    "rmehri01/onenord.nvim",
-    "olimorris/onedarkpro.nvim",
-    "ofirgall/ofirkai.nvim",
-    "catppuccin/nvim",
+    -- "rmehri01/onenord.nvim",
+    -- "olimorris/onedarkpro.nvim",
+    -- "ofirgall/ofirkai.nvim",
+    -- "catppuccin/nvim",
     "Mofiqul/dracula.nvim",
 
 

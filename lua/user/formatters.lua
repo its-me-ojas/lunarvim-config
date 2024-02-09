@@ -1,5 +1,3 @@
-lvim.format_on_save.enabled = true
-
 -- Formatter setup
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
