@@ -7,6 +7,16 @@ lvim.plugins = {
     -- "luk400/vim-jukit",
     -- Utility
     "andweeb/presence.nvim",
+    -- flutter tools
+    {
+      'akinsho/flutter-tools.nvim',
+      lazy = false,
+      dependencies = {
+        'nvim-lua/plenary.nvim',
+        'stevearc/dressing.nvim', -- optional for vim.ui.select
+      },
+      config = true,
+    },
     {
       "folke/todo-comments.nvim",
       event = "BufRead",
