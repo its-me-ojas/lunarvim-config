@@ -1,6 +1,10 @@
 -- Additional Plugins
 lvim.plugins = {
   {
+    -- jupyter notebook hanlder
+
+    -- TODO fix this
+    -- "luk400/vim-jukit",
     -- Utility
     "andweeb/presence.nvim",
     {
@@ -29,6 +33,7 @@ lvim.plugins = {
 
 
     -- Themes
+    "askfiy/visual_studio_code",
     'Mofiqul/vscode.nvim',
     "morhetz/gruvbox",
     -- "lunarvim/horizon.nvim",
