@@ -2,14 +2,14 @@
 vim.opt.wrap = true
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "vscode"
+lvim.colorscheme = "matrix"
 
 vim.opt.relativenumber = true
 
 -- transparent window
-lvim.transparent_window = true;
-vim.g.neovide_transparency = 0.5
-vim.g.transparency = 0.5
+lvim.transparent_window = false;
+vim.g.neovide_transparency = 0.0
+vim.g.transparency = 0.0
 
 -- Check if g:neovide exists
 if vim.g.neovide then

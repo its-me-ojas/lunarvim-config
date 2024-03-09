@@ -1,12 +1,39 @@
 -- Additional Plugins
 lvim.plugins = {
   {
+    "i3d/vim-jimbothemes",
+    'nosduco/remote-sshfs.nvim',
+    -- php
+    "gbprod/phpactor.nvim",
     -- jupyter notebook hanlder
-
+    -- {
+    "GCBallesteros/jupytext.nvim",
+    -- config = true,
+    -- Depending on your nvim distro or config you may need to make the loading not lazy
+    -- lazy = false,
+    -- },
     -- TODO fix this
     -- "luk400/vim-jukit",
+    "rafamadriz/friendly-snippets",
     -- Utility
     "andweeb/presence.nvim",
+    {
+      "kawre/leetcode.nvim",
+      build = ":TSUpdate html",
+      dependencies = {
+        "nvim-telescope/telescope.nvim",
+        "nvim-lua/plenary.nvim", -- required by telescope
+        "MunifTanjim/nui.nvim",
+
+        -- optional
+        "nvim-treesitter/nvim-treesitter",
+        "rcarriga/nvim-notify",
+        "nvim-tree/nvim-web-devicons",
+      },
+      opts = {
+        -- configuration goes here
+      },
+    },
     -- flutter tools
     {
       'akinsho/flutter-tools.nvim',
