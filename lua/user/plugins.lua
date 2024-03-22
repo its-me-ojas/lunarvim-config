@@ -1,6 +1,10 @@
 -- Additional Plugins
 lvim.plugins = {
   {
+
+    -- light bulb
+    'kosayoda/nvim-lightbulb',
+
     "i3d/vim-jimbothemes",
     'nosduco/remote-sshfs.nvim',
     -- php
