@@ -30,8 +30,6 @@ lvim.plugins = {
         "MunifTanjim/nui.nvim",
 
         -- optional
-        "nvim-treesitter/nvim-treesitter",
-        "rcarriga/nvim-notify",
         "nvim-tree/nvim-web-devicons",
       },
       opts = {
@@ -86,7 +84,7 @@ lvim.plugins = {
     -- "rmehri01/onenord.nvim",
     -- "olimorris/onedarkpro.nvim",
     -- "ofirgall/ofirkai.nvim",
-    -- "catppuccin/nvim",
+    "catppuccin/nvim",
     "Mofiqul/dracula.nvim",
 
 
