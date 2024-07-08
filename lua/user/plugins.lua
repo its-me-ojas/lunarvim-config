@@ -1,11 +1,30 @@
 -- Additional Plugins
 lvim.plugins = {
   {
-
+    -- 'nvim-java/nvim-java',
+    --   dependencies = {
+    --     'nvim-java/lua-async-await',
+    --     'nvim-java/nvim-java-refactor',
+    --     'nvim-java/nvim-java-core',
+    --     'nvim-java/nvim-java-test',
+    --     'nvim-java/nvim-java-dap',
+    --     'MunifTanjim/nui.nvim',
+    --     'neovim/nvim-lspconfig',
+    --     'mfussenegger/nvim-dap',
+    --     {
+    --       'williamboman/mason.nvim',
+    --       opts = {
+    --         registries = {
+    --           'github:nvim-java/mason-registry',
+    --           'github:mason-org/mason-registry',
+    --         },
+    --       },
+    --     }
+    --   },
     -- light bulb
     'kosayoda/nvim-lightbulb',
 
-    "i3d/vim-jimbothemes",
+    -- "i3d/vim-jimbothemes",
     'nosduco/remote-sshfs.nvim',
     -- php
     "gbprod/phpactor.nvim",
@@ -21,21 +40,21 @@ lvim.plugins = {
     "rafamadriz/friendly-snippets",
     -- Utility
     "andweeb/presence.nvim",
-    {
-      "kawre/leetcode.nvim",
-      build = ":TSUpdate html",
-      dependencies = {
-        "nvim-telescope/telescope.nvim",
-        "nvim-lua/plenary.nvim", -- required by telescope
-        "MunifTanjim/nui.nvim",
+    -- {
+    --   "kawre/leetcode.nvim",
+    --   build = ":TSUpdate html",
+    --   dependencies = {
+    --     "nvim-telescope/telescope.nvim",
+    --     "nvim-lua/plenary.nvim", -- required by telescope
+    --     "MunifTanjim/nui.nvim",
 
-        -- optional
-        "nvim-tree/nvim-web-devicons",
-      },
-      opts = {
-        -- configuration goes here
-      },
-    },
+    --     -- optional
+    --     "nvim-tree/nvim-web-devicons",
+    --   },
+    --   opts = {
+    --     -- configuration goes here
+    --   },
+    -- },
     -- flutter tools
     {
       'akinsho/flutter-tools.nvim',

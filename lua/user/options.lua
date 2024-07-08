@@ -7,9 +7,10 @@ lvim.colorscheme = "catppuccin"
 vim.opt.relativenumber = true
 
 -- transparent window
-lvim.transparent_window = false;
-vim.g.neovide_transparency = 1.0
-vim.g.transparency = 0.0
+lvim.transparent_window = true;
+vim.g.neovide_transparency = 0.1
+vim.g.transparency = 0.2
+vim.g.terminal.shell = "/usr/bin/fish"
 
 -- Check if g:neovide exists
 if vim.g.neovide then
