@@ -1,6 +1,23 @@
 -- Additional Plugins
 lvim.plugins = {
   {
+    "nvim-lua/plenary.nvim",
+    "epwalsh/obsidian.nvim",
+    version = "*", -- recommended, use latest release instead of latest commit
+    lazy = true,
+    ft = "markdown",
+    dependencies = {
+      -- Required.
+      "nvim-lua/plenary.nvim",
+    },
+    opts = {
+      workspaces = {
+        {
+          name = "personal",
+          path = "~/Sync/Second Brain/",
+        },
+      },
+    },
     -- 'nvim-java/nvim-java',
     --   dependencies = {
     --     'nvim-java/lua-async-await',
@@ -23,6 +40,8 @@ lvim.plugins = {
     --   },
     -- light bulb
     'kosayoda/nvim-lightbulb',
+
+
 
     -- "i3d/vim-jimbothemes",
     'nosduco/remote-sshfs.nvim',
@@ -64,6 +83,14 @@ lvim.plugins = {
         'stevearc/dressing.nvim', -- optional for vim.ui.select
       },
       config = true,
+    },
+    {
+      "YannickFricke/codestats.nvim",
+      config = function()
+        require("codestats-nvim").setup({
+          token = "SFMyNTY.YVhSelkzSmxjM1JtWVd4c1pXND0jI01qUXpNRGc9.exdCNLsCO_oz-1o8dmTZP0op_JVL4ss1R_OAQkRuxnM"
+        })
+      end,
     },
     {
       "folke/todo-comments.nvim",
